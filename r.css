@@ -1,0 +1,157 @@
+
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+.verticalbar
+{
+    background-color: black;
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 70px;
+    padding-bottom:700px;
+    padding-right: 70px;
+    position: fixed;
+   
+}
+.logo
+{
+    border: 6px solid grey;
+    border-radius: 800px;
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    
+}
+.drop{
+    padding-inline-start: 3px;
+    
+    
+    
+}
+.anchor{
+   font-size: 25px;
+   text-decoration:none ;
+   
+}
+
+
+.image{
+    padding-left:40px ;
+    margin-left: 350px;
+}
+
+tr:nth-child(even){
+    padding:3px;
+    background-color: #99a099;
+   
+
+}
+.row
+{
+    background-color: rgb(6, 207, 6);
+   
+    
+}
+td,th{
+    padding:20px;
+    font-size: 20px;
+}
+table{
+    padding-left:10px;
+    margin-left: 350px;
+   
+}
+
+.skill{
+    width:70px;
+    height:90px;
+    margin-left: 350px;
+    
+}
+.pale{
+    background-image:url("black3.jpg");
+   
+    padding-left: 60px;
+    margin-left: 350px;
+    z-index: -1;
+}
+
+.ho{
+    padding-left:5px;
+    margin-left: 350px;
+}
+.ho1{
+    padding-left:30px;
+    width: 200px;
+    margin-left: 350px;
+}
+.ho2{
+    padding-left:90px;
+    width: 300px;
+    margin-left: 350px;
+}
+.y{
+     background-image: url("black.jpg"); 
+     
+     margin-left: 350px;
+     padding: 10px;
+    
+}
+.contact2{
+    width: 100px;
+    height:100px;
+    padding-left: 50px;
+    margin-left: 350px;
+
+}
+.overlay{
+    margin-left: 350px;
+    position: absolute;
+    
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 25%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: px;
+    text-align: center;
+}
+.overlay:hover  {
+    opacity: 1;
+  }
+  .overlay{
+    z-index: 1;
+    padding-left:40px;
+    top:300px;
+    
+
+  }
+  .myimage{
+    background-image: url("black1.jpg");
+   
+    margin-left:  350px;
+    z-index: 2;
+    padding: 30px;
+  }
+  .qualification{
+    background-image: url("black2.jpg");
+    background-size: contain;
+    z-index: 2;
+    margin-left: 350px;
+    left: 20px;
+  }
+  .contactpage{
+    background-image: url("rock.jpg");
+    
+    z-index: inherit;
+    margin-left: 350px;
+    width:74%;
+    
+    
+
+  }
